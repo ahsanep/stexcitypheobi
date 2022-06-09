@@ -1,0 +1,148 @@
+b {
+    position: relative;
+    left: 33%;
+    top: -10px;
+}
+
+.mainContainer {
+    position: absolute;
+    width: 80%;
+    height: 960px;
+    left: 11%;
+    top: 28%;
+ 
+
+}
+
+.parent {
+
+
+    display: flex;
+    overflow-x: scroll;
+
+
+}
+
+.items {
+    flex-basis: 100%;
+    height: 70px;
+    border-radius: 6px;
+    margin: 8px;
+    background: linear-gradient(180deg, #20232D 0%, rgba(32, 35, 45, 0.1) 100%);
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FDFDFD;
+
+    p {
+
+        position: relative;
+        left: 25%;
+        top: -29%;
+        font-size: 10px;
+    }
+}
+
+
+.Shape {
+
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 12px;
+    top: 20px;
+    border-radius: 20px;
+}
+
+.Arrow {
+
+    position: relative;
+    top: 65%;
+    left: 34%;
+}
+.Filter
+{
+   
+    position: relative;
+   
+   
+    top: 6px;
+    width: 36px;
+    height: 32px;
+    left: 93%;
+}
+
+.searching {
+    // border: 2px solid red;
+    width: 100%;
+    height: 50px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 42px;
+    position: absolute;
+    width: 93%;
+    height: 12px;
+    left: 0px;
+    border-radius: 3px;
+    background: linear-gradient(180deg, #20232D 0%, rgba(32, 35, 45, 0.1) 100%);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.searchIcon {
+    background: linear-gradient(180deg, #20232D 0%, rgba(32, 35, 45, 0.1) 100%);
+    position: relative;
+    top: 3px;
+    left: 4px;
+    border-radius: 50%;
+}
+.table
+{
+    background-color: black !important;
+
+div
+{
+    background-color: black;
+    color: white;
+}
+
+}
+
+@media (max-width:768px) {
+
+
+    .mainContainer {
+        position: absolute;
+        width: 80%;
+        height: 960px;
+        left: 11%;
+        top: 56%;
+        border: none;
+    }
+
+
+
+
+.search {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 42px;
+    position: absolute;
+    width: 70%;
+    height: 12px;
+    left: 0px;
+    border-radius: 3px;
+}
+
+}
