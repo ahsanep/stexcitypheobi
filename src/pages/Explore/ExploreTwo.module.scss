@@ -1,0 +1,177 @@
+.MainBox {
+
+    width: 100%;
+    height: 500px;
+
+}
+
+.containerOne {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 50%;
+    height: 76px;
+    position: relative;
+
+    top: 57px;
+    background: linear-gradient(180deg, #20232D 0%, rgba(32, 35, 45, 0.1) 100%);
+    border-radius: 10px;
+
+    .iconCryptocurrency {
+        position: relative;
+        left: 2.5%;
+        right: 0;
+        top: 25%;
+        bottom: 85%;
+    }
+
+    .Arrow {
+        position: relative;
+        width: 3%;
+        height: 22px;
+        left: 7%;
+        top: -29px;
+
+
+    }
+
+    .arrowRateShow {
+        position: relative;
+        left: 10%;
+        right: 78%;
+        top: -66px;
+        bottom: 84%;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #F23B3B;
+    }
+
+    .buyButton {
+        display: flex;
+        align-items: center;
+        padding: 10px 24px;
+        position: relative;
+        font-family: "Roboto";
+        left: 63%;
+        top: -109px;
+        background: #01B633;
+        border-radius: 7px;
+        border: none;
+        width: 10%;
+        height: 39px;
+        text-align: center;
+        color: white;
+        padding: 0PX 30PX;
+    }
+
+    .sellButton {
+
+        padding: 10px 24px;
+        gap: 10px;
+        position: relative;
+        width: 10%;
+        height: 39px;
+        top: -148px;
+        left: 75%;
+        background: #F23B3B;
+        border-radius: 5px;
+        border: none;
+        font-family: "Roboto";
+        text-align: center;
+        color: white;
+        padding: 0PX 30PX;
+    }
+
+}
+
+.forText {
+
+    left: 8%;
+    right: 80%;
+    top: -46%;
+    bottom: 86.55%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FDFDFD;
+    position: relative;
+}
+
+.parentButtonDiv {
+    display: flex;
+}
+
+.fiatBalnceParent {
+    display: flex;
+    width: 616px;
+    height: 118px;
+    left: 1095px;
+    top: 172px;
+
+    .rightContainer {
+        width: 50%;
+     
+        width: 100%;
+        height: 100px;
+        position: relative;
+        left: 4%;
+        top: 43px;
+        border-radius: 10px;
+        flex-grow: 1;
+        background: linear-gradient(180deg, #20232D 0%, rgba(32, 35, 45, 0.1) 100%);
+        color: grey;
+
+    }
+
+    .fiatBalanceinnerText {
+
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #C6CAD9;
+        position: relative;
+        left: -18%;
+        top: 14%;
+        flex-grow: 1;
+
+    }
+
+    .innerTextFiatBalance_BTC {
+        position: relative;
+        width: 100%;
+        height: 38px;
+        top: -44px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 38px;
+        background: linear-gradient(91.3deg, #F1356F 1.11%, #12868F 101.88%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+   
+    }
+
+
+.showGraph
+
+{
+    width: 50%;
+    height: 50%;
+    color: black;
+    position: relative;
+    top: 20%;
+    left: 4%;
+    border-radius: 10px;
+}

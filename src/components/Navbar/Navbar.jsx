@@ -3,6 +3,7 @@ import { Credit, LogoImage } from '../../images';
 import Styles from './Navbar.module.scss'
 import { GiHamburgerMenu } from "react-icons/gi";
 import Explore from '../../pages/Explore/Explore';
+import ExploreTwo from '../../pages/Explore/ExploreTwo';
 
 const Navbar = () => {
   const [show, setShow] = useState(true)
@@ -40,7 +41,8 @@ const Navbar = () => {
 
         </div>
       </nav>
-      <Explore />
+      {/* <Explore /> */}
+      <ExploreTwo />
     </>
 
 
